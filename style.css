@@ -16,3 +16,23 @@ body {
 h1 {
     text-align: center;
 }
+html {
+    scroll-behavior: smooth;
+}
+button {
+    box-shadow: 0 0 5px hotpink,
+    0 0 25px hotpink;
+    color: #FFFFFF;
+    background-color: hotpink;
+    border: none;
+    border-radius: 30px 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+button:hover {
+    box-shadow: 0 0 5px hotpink,
+    0 0 25px hotpink, 0 0 50px hotpink,
+    0 0 100px hotpink, 0 0 200px hotpink;
+}
+a { color: white; }
+a:visited {color: #a36c81;}
+a:hover {color:#ffa07a;}
